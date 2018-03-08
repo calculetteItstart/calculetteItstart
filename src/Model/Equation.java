@@ -27,29 +27,3 @@ public class Equation {
 		return result;
 	}
 }
-
-/* réel a, b
-écrire "Résolution de ax + b = 0"
-écrire "Introduisez a:"
-lire a
-écrire "Introduisez b:"
-lire b
-si a=0 alors si b=0 alors  écrire "Equation indéterminée."
-             sinon  écrire "Equation impossible."
-             fsi
-sinon  écrire "x = ", -b/a
-fsi
- PROGRAM Eq_1er_degre;
-VAR a, b : REAL;
-BEGIN
-WRITELN('Résolution de ax + b = 0');
-WRITE('Introduisez a: ');
-READLN(a);
-WRITE('Introduisez b: ');
-READLN(b);
-IF a=0 THEN IF b=0 THEN WRITELN('Equation indéterminée.')
-            ELSE WRITELN('Equation impossible.')
-ELSE WRITELN('x = ', -b/a:5:2)
-END.
-
-*/ 
