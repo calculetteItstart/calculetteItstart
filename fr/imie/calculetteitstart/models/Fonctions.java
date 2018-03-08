@@ -3,33 +3,24 @@ package fr.imie.calculetteitstart.models;
 public class Fonctions {
 
 	double nombre;
-	char fonction;
 
-	public double puissance(double nombre) {
-
-		double result = 0;
-		for (int i = 0; i < nombre; i++) {
-			result = result * nombre;
-		}
-
-		return (result);
+	public double puissance() {
+		return (Math.pow(nombre, nombre));
 	}
 
-	public Fonctions racine(double nombre, char fonction) {
-		return null;
-
+	public double racine() {
+		return (Math.sqrt(nombre));
 	}
 
-	public Fonctions sinus(double nombre, char fonction) {
-		return null;
-
+	public double sinus() {
+		return (Math.sin(nombre));
 	}
 
-	public Fonctions cosinus(double nombre, char fonction) {
-		return null;
+	public double cosinus() {
+		return (Math.cos(nombre));
 	}
 
-	public Fonctions tangente() {
-		return null;
+	public double tangente() {
+		return (Math.tan(nombre));
 	}
 }
